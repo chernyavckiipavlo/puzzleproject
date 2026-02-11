@@ -1,54 +1,73 @@
-Digit Puzzle
-Description
+
+---
+
+# Digit Puzzle
+
+## Description
 
 This program builds the longest possible sequence by connecting numbers using:
 
-the last two digits of one number
-
-the first two digits of another number
+* the last two digits of one number
+* the first two digits of another number
 
 Each number can be used only once.
 
-Requirements
+---
 
-Java 21 or higher
+## Requirements
 
-How to Run
+**Java 21 or higher**
 
-Open a terminal in the folder containing the .jar file.
+---
 
-Run:
+## How to Run
 
+Open a terminal in the folder containing the `.jar` file and run:
+
+```bash
 java -jar puzzleProject-1.0-SNAPSHOT.jar source.txt
+```
 
-Input Format:
-Plain .txt file
-One number per line
-Digits only
-Minimum length: 4 characters
+---
 
-Example:
+## Input Format
+
+* Plain `.txt` file
+* One number per line
+* Digits only
+* Minimum length: **4 characters**
+
+### Example:
+
+```
 608017
 248460
 962282
 994725
 177092
+```
 
-Output
+---
+
+## Output
+
 The program prints:
-The longest constructed sequence
 
-Its length
+* The longest constructed sequence
+* Its length
 
-Example:
+### Example:
 
+```
 The biggest puzzle is: 24846080177092
 The length is: 14
+```
 
-Notes
+---
 
-The program works with any valid input file.
+## Notes
 
-No additional tools or IDE are required.
+* The program works with any valid input file.
+* No additional tools or IDE are required.
+* Fully executable from the command line.
 
-Fully executable from the command line.
